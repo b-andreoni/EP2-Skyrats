@@ -22,7 +22,6 @@ def mask_apply(imagem):
 
     return resultado, mascara
 
-# Mostrar imagem
 
 
 if __name__ == "__main__":
@@ -31,5 +30,6 @@ if __name__ == "__main__":
     
     cv2.imshow("Cubos hsv", resultado)
 
+    # Mostrar imagem
     cv2.waitKey(0)
     cv2.destroyAllWindows()
