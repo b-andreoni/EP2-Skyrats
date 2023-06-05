@@ -4,7 +4,7 @@ import numpy as np
 #
 
 # Leitura da imagem
-imagem = cv2.imread('cubos_praia.jpeg', -1)
+imagem = cv2.imread('imagens/cubos_praia.jpeg', -1)
 
 hsv = cv2.cvtColor (imagem, cv2.COLOR_BGR2HSV)
 
